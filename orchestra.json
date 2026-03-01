@@ -1,0 +1,23 @@
+{
+    "name": "orchestra-mcp/plugin-transport-webtransport",
+    "description": "HTTP/2 JSON-RPC 2.0 gateway serving browser clients and embedded React dashboard at https://localhost:4433.",
+    "type": "transport",
+    "license": "MIT",
+    "homepage": "https://orchestra-mcp.dev",
+    "support": {
+        "issues": "https://github.com/orchestra-mcp/plugin-transport-webtransport/issues",
+        "source": "https://github.com/orchestra-mcp/plugin-transport-webtransport"
+    },
+    "require": {
+        "orchestra-mcp/gen-go": "^0.1.0",
+        "orchestra-mcp/sdk-go": "^0.1.0"
+    },
+    "bin": "transport-webtransport",
+    "extra": {
+        "plugin-id": "transport.webtransport",
+        "provides": ["transport"],
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
